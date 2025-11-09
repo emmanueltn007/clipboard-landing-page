@@ -321,7 +321,6 @@ footer li {
     /*LOGO CONTAINER*/
 
     .logo-container {
-        display: flex;
         flex-direction: column;
         padding-left: 5em;
         padding-right: 5em;
@@ -329,7 +328,9 @@ footer li {
     }
 
     .logo-container img {
+        margin: auto;
         height: auto;
+        width: 120px;
     }
 
     /*CLIPBOARD CONTAINER*/
